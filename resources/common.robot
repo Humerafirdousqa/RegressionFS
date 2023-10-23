@@ -318,7 +318,7 @@ Create Merch Checklist
     DropDown                    Location                    Front Endcap
     ComboBox                    Search Products...          2 Silos Citralicious Sixth Barrel
     ClickText                   Save Task
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    UploadFile                  Upload Files                /home/services/suite/Required fields NCR.PNG
     ClickText                   Continue
     ClickText                   Done                        Anchor=2
     UseModal                    Off
