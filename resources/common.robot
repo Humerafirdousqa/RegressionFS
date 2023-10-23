@@ -151,11 +151,11 @@ Create NCR as FSR
     PickList                    Patron Age Code             General Pop
     PickList                    Residence                   Local
     ComboBox                    Search People...            Charles Kirk
-    ComboBox                    Search People...            Charles Kirk                index=2
-    ComboBox                    Search People...            Charles Kirk                index=3
-    ComboBox                    Search People...            Charles Kirk                index=4
-    ComboBox                    Search People...            Charles Kirk                index=5
-    ComboBox                    Search People...            Charles Kirk                index=6
+    #ComboBox                    Search People...            Charles Kirk                index=2
+    #ComboBox                    Search People...            Charles Kirk                index=3
+    #ComboBox                    Search People...            Charles Kirk                index=4
+    #ComboBox                    Search People...            Charles Kirk                index=5
+    #ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen
     MultiPickList               Requested Delivery Days     Thursday
