@@ -17,12 +17,6 @@ Command Center for FSR
     Login As FSR       Charles Kirk
     Verify Home page for FSR
 
-Create Elite Survey
-    [Documentation]    This is to create Elite Survey
-    [Tags]             Elite Survey
-    Select the first Account
-    ClickText          Surveys
-    Create Elite Survey
 
 Create FailedScan
     [Documentation]    This is to create Failed Scan
@@ -55,6 +49,13 @@ Menu Survey
     [Tags]             Surveys
     Create a Menu Survey
 
+Create Elite Survey
+    [Documentation]    This is to create Elite Survey
+    [Tags]             Elite Survey
+    Select the first Account
+    ClickText          Surveys
+    Create Elite Survey
+
 Create NCR as an FSR
     [Documentation]       This is to create NCR
     [Tags]                NCR
@@ -66,4 +67,6 @@ Create NCR as an FSR
     SwitchWindow          NEW
     Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
     VerifyText            Awaiting Manager Approval
+
+
 
