@@ -38,8 +38,6 @@ Create MerchChecklist
 Create NCR as an FSR
     [Documentation]       This is to create NCR
     [Tags]                NCR
-    Login
-    Login As FSR          Charles Kirk
     ClickText             New Customer Request        anchor=Live Order
     ${DBARand}=           Generate Random String      6                         [LOWER]
     ${FirstRand}=         Generate Random String      6                         [LOWER]
