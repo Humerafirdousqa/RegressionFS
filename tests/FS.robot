@@ -35,18 +35,6 @@ Create MerchChecklist
     Select the first Account
     Create Merch Checklist
 
-Create NCR as an FSR
-    [Documentation]       This is to create NCR
-    [Tags]                NCR
-    ClickText             New Customer Request        anchor=Live Order
-    ${DBARand}=           Generate Random String      6                         [LOWER]
-    ${FirstRand}=         Generate Random String      6                         [LOWER]
-    ${LastRand}=          Generate Random String      6                         [LOWER]
-    ClickText             New Customer Request
-    SwitchWindow          NEW
-    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
-    VerifyText            Awaiting Manager Approval
-
 Draft Beer Calculator
     [Documentation]    This is to test Draft Profit Calculator Functionality
     [Tags]             Profit Calculator
@@ -66,4 +54,16 @@ Menu Survey
     [Documentation]    This is test Menu Survey Functionality
     [Tags]             Surveys
     Create a Menu Survey
+
+Create NCR as an FSR
+    [Documentation]       This is to create NCR
+    [Tags]                NCR
+    ClickText             New Customer Request        anchor=Live Order
+    ${DBARand}=           Generate Random String      6                         [LOWER]
+    ${FirstRand}=         Generate Random String      6                         [LOWER]
+    ${LastRand}=          Generate Random String      6                         [LOWER]
+    ClickText             New Customer Request
+    SwitchWindow          NEW
+    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
+    VerifyText            Awaiting Manager Approval
 
