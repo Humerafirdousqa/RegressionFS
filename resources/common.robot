@@ -367,7 +367,7 @@ Create Failed Scan
     DropDown           *                           Vendor Information Incorrect or Pricing Issue
     TypeText           *                           comments
     ClickText          Next
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    UploadFile         Upload Files                /home/services/suite/Required fields NCR.PNG
     ClickText          Next
     ClickText          Finish
     UseModal           Off
