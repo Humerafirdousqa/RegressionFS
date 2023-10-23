@@ -333,11 +333,11 @@ Create Elite Survey
     DropDown           *Is the RBG Display Support of Feature consistent with local objectives?    Yes
     TypeText           Question Comments           cccc                        anchor=Support of Feature Picture
     ClickText          Upload Files                anchor=Support of Feature Picture
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    UploadFile         Upload Files                /home/services/suite/Required fields NCR.PNG
     DropDown           *Is the overall display of cases on the sales floor at standard as defined by the business?                           No
     TypeText           Question Comments      dddd                        anchor=Is the overall display of cases on the sales floor at standard as defined by the business?
     ClickText          Upload Files                anchor=Display Cases Picture
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    UploadFile         Upload Files                /home/services/suite/Required fields NCR.PNG
     DropDown           *Are planner items merchandised and executed?                           N/A
     DropDown           *Are legal consumer offers equal to or greater than competition?                           Yes
     DropDown           *Do displays have legal POS equal to greater than competition?                           No
