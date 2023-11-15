@@ -44,6 +44,14 @@ Packaged Beer Calculator
     ClickText          Packaged Beer Calculator
     Packaged Beer Calculator
 
+Spirit Calculator
+    [Documentation]    This is to test Spirit Calculator
+    [Tags]             Profit Calculator
+    Select the first Account
+    ClickText          Profit Calculator
+    ClickText          Spirit Calculator
+    Spirit Calculator
+
 Menu Survey
     [Documentation]    This is test Menu Survey Functionality
     [Tags]             Surveys
