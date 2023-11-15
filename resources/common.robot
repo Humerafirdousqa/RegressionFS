@@ -240,7 +240,7 @@ Verify Home page for FSR
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText                    Competitor Beer Name        beer1
+    TypeText                    Competitor Draft Name        beer1
     TypeText                    Price per Keg (Price to Retailer)                       23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     ClickText                   1/4 Barrel
@@ -251,7 +251,7 @@ Draft Beer Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
-    ClickText                   Miller Lite Half Barrel
+    ClickText                   Miller Lite Quarter Barrel Slim
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
     TypeText                    Serving Size in Ounces (Pour Size)                      5                           Anchor=2
     TypeText                    Velocity per Month (Number of Kegs)                     5                           Anchor=2
