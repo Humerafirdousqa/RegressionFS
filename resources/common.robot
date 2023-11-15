@@ -294,8 +294,7 @@ Packaged Beer Calculator
 Spirit Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    ClickText                   Accounts
-    TypeText                    LAKESHORE SPORTS/FITNES
+    
     TypeText                    Competitor Spirit Name    Spirit1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
@@ -310,7 +309,7 @@ Spirit Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
     Sleep                       3s
-    ClickText                   45 NEW RCH RYE B6/750ML 6/750ML
+    ClickText                   NEW HOLLAND NH BEER BRL Z
     TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
     TypeText                    Cases Sold per Month                      5
