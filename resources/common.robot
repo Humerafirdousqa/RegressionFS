@@ -294,6 +294,8 @@ Packaged Beer Calculator
 Spirit Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
+    ClickText                   Accounts
+    TypeText                    LAKESHORE SPORTS/FITNES
     TypeText                    Competitor Spirit Name    Spirit1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
