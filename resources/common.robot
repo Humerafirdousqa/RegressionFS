@@ -312,7 +312,7 @@ Spirit Calculator
     ClickText                   NEW HOLLAND NH BEER BRL Z
     TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
-    TypeText                    Cases Sold per Month                      3
+    TypeText                    Cases Sold per Month                      3                        Anchor=2
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
