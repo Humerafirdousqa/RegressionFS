@@ -278,11 +278,41 @@ Packaged Beer Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
-    ClickText                   Miller High Life 12 - 32oz Cans
+    ClickText                   Miller High Life 12 - 32oz
     TypeText                    Price Charged Per Retail Package (Price to Consumer)    110                         Anchor=2
     ClickText                   Retail Package Size         Anchor=2
     ClickText                   6 Pack                      Anchor=2
     TypeText                    Cases Sold per Month        5                           Anchor=2
+    ClickText                   Calculate
+    ClickText                   Save for Later
+    TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
+    ClickText                   Save                        partial_match=False
+    ClickText                   Packaged Beer profit calculation
+    VerifyText                  Profit Calculation\Packaged Beer profit calculation
+
+
+Spirit Calculator
+    [Documentation]             This is to test Profit Calculator
+    [Arguments]
+    ClickText                   Spirit Calculator
+    TypeText                    Competitor Spirit Name    Spirit1
+    TypeText                    Case Cost (Price to Retailer)                           23
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    Sleep                       3s
+    ClickText                   1000ML 
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickText                   12 Pack
+    TypeText                    Price per Serving (Price to Consumer)    25
+    TypeText                    Pour Size (Serving Size in Ounces)        3.5
+    TypeText                    Cases Sold per Month                      3
+    ClickText                   Add a Product to Compare
+    ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
+    TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
+    Sleep                       3s
+    ClickText                   45 NEW RCH RYE B6/750ML 6/750ML
+    TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
+    TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
+    TypeText                    Cases Sold per Month                      5
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
