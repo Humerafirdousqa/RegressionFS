@@ -265,7 +265,7 @@ Draft Beer Calculator
 Packaged Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText                    Competitor Beer Name        beer1
+    TypeText                    Competitor  Packaged Name        beer1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickText                   Case Size
     Sleep                       3s
